@@ -24,7 +24,7 @@ install:
   - conda info -a
 
   # Create test environment with conda
-  - conda env create -f environment.yml -n robust-stats
+  - conda env create -n robust-stats numpy
   - source activate robust-stats
   #- python setup.py install
 
