@@ -3,8 +3,8 @@ Signal detection theory functions
 Based on "Signal Detection theory: A user's guide"
 by N.A. Macmillan and C.D. Creelman
 """
-import numpy.multiply as multiply_array
-import numpy.divide as divide_array
+from numpy import multiply as multiply_array
+from numpy import divide as divide_array
 from math import exp
 from scipy.stats import norm
 
