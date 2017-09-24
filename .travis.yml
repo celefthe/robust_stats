@@ -24,7 +24,7 @@ install:
   - conda info -a
 
   # Create test environment with conda
-  - conda env create -n robust-stats numpy
+  - conda env create -n robust-stats libgfortran numpy
   - source activate robust-stats
   #- python setup.py install
 
