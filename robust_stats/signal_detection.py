@@ -1,5 +1,7 @@
 """
 Signal detection theory functions
+Based on "Signal Detection theory: A user's guide"
+by N.A. Macmillan and C.D. Creelman
 """
 import numpy.multiply as multiply_array
 import numpy.divide as divide_array
