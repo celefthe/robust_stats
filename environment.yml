@@ -1,0 +1,6 @@
+name: robust_stats
+channels:
+- conda-forge
+- defaults
+prefix: /Users/celefthe/anaconda/envs/robust_stats
+
